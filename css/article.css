@@ -25,9 +25,11 @@
       }
 
       .article {
-          margin: 0 14%;
+          margin: 0 5%;
           padding: 2% 8% 4% 8%;
       }
+
+
 
       .title {
           font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
