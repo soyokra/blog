@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <link href="../../css/article.css" rel="stylesheet" type="text/css">
+  <script>
+    if (/mobile/i.test(navigator.userAgent) || /android/i.test(navigator.userAgent))
+    {
+      document.body.classList.add('mobile');
+    }
+  </script>
   <title>The Silence of the Lambs</title>
 </head>
 <body>
