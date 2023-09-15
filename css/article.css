@@ -1,0 +1,60 @@
+     * {
+          box-sizing: border-box;
+      }
+
+      html {
+          -webkit-text-size-adjust: none;
+      }
+
+      table {
+          font-size: 100%;
+      }
+
+
+      body {
+          font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+          font-size: 18px;
+      }
+
+      body.mobile {
+          font-size: 32px;
+      }
+
+      p, li {
+          line-height: 1.8;
+      }
+
+      .article {
+          margin: 0 14%;
+          padding: 2% 8% 4% 8%;
+      }
+
+      .title {
+          font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+          margin-bottom: 40px;
+          border-bottom: 2px LightGrey solid;
+          width: 98%;
+          line-height: 150%;
+          color: #666666;
+      }
+
+      .aside {
+          position:fixed;
+          top: 100px;
+          left: 10%;
+      }
+
+      a {
+          text-decoration: none;
+          border-bottom: 1px dashed LightGrey;
+          color: #666666;
+      }
+
+
+      a:hover {
+          background-color: LightGrey;
+      }
+
+      .aside > .item {
+          margin: 8px 0;
+      }
