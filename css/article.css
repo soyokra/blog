@@ -40,12 +40,6 @@
           color: #666666;
       }
 
-      .aside {
-          position:fixed;
-          top: 100px;
-          left: 10%;
-      }
-
       a {
           text-decoration: none;
           border-bottom: 1px dashed LightGrey;
