@@ -29,6 +29,14 @@
           padding: 2% 8% 4% 8%;
       }
 
+      .content {
+          table-layout: fixed;
+          word-wrap: break-word;
+          word-break: normal;
+          text-align: justify;
+          text-justify: inter-ideograph;
+      }
+
 
 
       .title {
