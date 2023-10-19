@@ -1,0 +1,217 @@
+a {
+    color: #d9d9d9;
+    text-decoration: none
+}
+
+a:hover, a:visited {
+    color: #fff
+}
+
+.nav-link {
+    color: #f4f4f4
+}
+
+.nav-link:hover, .selected .nav-link, a.selected {
+    color: #198754
+}
+
+.bg-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(33, 37, 41, 1), rgba(33, 37, 41, 0)), url(https://i.cilixiong.com/bgcover.webp)
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.bg-overlay:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .7;
+    background: #212529
+}
+
+.container {
+    z-index: 100;
+    position: relative;
+    max-width: 1160px
+}
+
+header {
+    z-index: 200
+}
+
+a.logo img {
+    max-width: 115px
+}
+
+.card-img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 140%
+}
+
+.card-img:hover {
+    -webkit-box-shadow: 0 0 35px 5px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 35px 5px rgba(0, 0, 0, .5)
+}
+
+.card-img span {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+    opacity: .85;
+    -webkit-transition: opacity 800ms;
+    -o-transition: opacity 800ms;
+    transition: opacity 800ms
+}
+
+.card-img span:hover {
+    opacity: 1
+}
+
+.card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: transform 400ms, opacity 400ms;
+    -o-transition: transform 400ms, opacity 400ms;
+    transition: transform 400ms, opacity 400ms
+}
+
+.rank {
+    border-radius: .8em;
+    font-size: .9em;
+    background: linear-gradient(to top, rgba(60, 243, 143, 0), rgba(42, 164, 97, 1))
+}
+
+.page-link, .page-link:hover {
+    color: #fff;
+    background-color: #2c2c2c;
+    margin: 0 0;
+    border: none
+}
+
+.page-link:hover {
+    background-color: #198754
+}
+
+.active .page-link {
+    background-color: #198754
+}
+
+.mv_detail {
+    font-size: .95em;
+    color: #af7874
+}
+
+.mv_detail h1 {
+    color: #cea588;
+    font-size: 2.3em
+}
+
+.mv_detail .db_rank {
+    font-size: 2em;
+    font-weight: 700;
+    color: #fc9b35
+}
+
+.mv_card {
+    background-color: #372d42;
+    border-radius: 6px;
+    color: #b283b5;
+    font-size: .95em
+}
+
+.mv_card h2 {
+    font-size: 1.5em;
+    color: #98599c
+}
+
+.mv_down {
+    background: rgba(0, 0, 0, .2);
+    overflow: hidden;
+    word-break: break-word
+}
+
+.mv_down .border-bottom {
+    border-color: #333 !important
+}
+
+.play_online {
+    max-width: 500px;
+    display: inline-block
+}
+
+.embed_video {
+    overflow: hidden;
+    padding-bottom: 46.25% !important;
+    position: relative;
+    height: 0;
+    background: #000
+}
+
+.embed_video iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 0
+}
+
+a.zt_lable {
+    background: #117949;
+    font-size: 14px;
+    padding: 4px 8px;
+    margin: 0 5px 5px 0;
+    display: inline-block
+}
+
+a.zt_lable:hover {
+    background: #198c57
+}
+
+.card .fa-star {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #cc8f1e;
+    font-size: 1.2rem
+}
+
+.sort-box {
+    background: rgba(44, 44, 44, .25);
+    border-radius: 5px
+}
+
+.sort-box li a {
+    padding: 5px 10px
+}
