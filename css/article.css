@@ -72,3 +72,14 @@
       .item {
           margin: 50px 0;
       }
+
+      .page {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+
+      .page > .space {
+          padding-left: 30px;
+          padding-right: 30px;
+      }
