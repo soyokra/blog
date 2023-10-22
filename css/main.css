@@ -219,3 +219,7 @@ a.zt_lable:hover {
 .sort-box li a {
     padding: 5px 10px
 }
+
+.mobile .title {
+    font-size: 100%;
+}
