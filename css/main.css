@@ -1,3 +1,7 @@
+body.mobile {
+    font-size: 48px;
+}
+
 a {
     color: #d9d9d9;
     text-decoration: none
@@ -214,4 +218,8 @@ a.zt_lable:hover {
 
 .sort-box li a {
     padding: 5px 10px
+}
+
+.mobile .title {
+    font-size: 100%;
 }
