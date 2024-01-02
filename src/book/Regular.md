@@ -4,4 +4,5 @@
 </p><p>\n
 ```
 
-friends: https://www.livesinabox.com/friends/scripts.shtml
+friends: 
+https://www.livesinabox.com/friends/scripts.shtml
